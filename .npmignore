@@ -1,0 +1,23 @@
+
+.DS_Store
+
+# stuff that's not required for module user
+src/
+test/
+Makefile
+.*
+
+# node.js standard
+node_modules
+npm-debug.log
+v8.log
+
+# test artifacts
+html-report/
+lib-cov/
+coverage
+coverage.html
+cover/
+coverage/
+test/hive-test-process
+
