@@ -1,4 +1,6 @@
 
+[![Travis CI badge](https://secure.travis-ci.org/chakrit/tcpmole.png)](http://travis-ci.org/chakrit/tcpmole)
+
 # TCPMOLE
 
 Creats quick-and-dirty ad-hoc local tcp connection tunnel / proxy to another port / machine.
