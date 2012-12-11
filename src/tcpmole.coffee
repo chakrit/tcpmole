@@ -11,7 +11,7 @@ module.exports = do ->
     assert typeof opts.dest is 'object', 'options.dest missing or not an object'
 
     handleClient = (client) ->
-      forward = net.connect opts.dest.port
+      forward = net.connect opts.dest
       client.pipe forward
       forward.pipe client
 

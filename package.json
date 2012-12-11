@@ -2,7 +2,8 @@
   "name": "tcpmole",
   "version": "0.1.0",
   "description": "Cmd line tool and CommonJS module for performing quick-and-dirty TCP tunneling/proxy to another machine. Useful for working with services running on remote machines.",
-  "main": "index.js",
+  "main": "./lib/tcpmole.js",
+  "bin": "./bin/cli.js",
   "scripts": {
     "test": "make test",
     "prepublish": "make all"
@@ -27,5 +28,9 @@
     "istanbul": "~0.1.24",
     "underscore": "~1.4.3",
     "async": "~0.1.22"
+  },
+  "dependencies": {
+    "optimist": "~0.3.5",
+    "colors": "~0.6.0-1"
   }
 }

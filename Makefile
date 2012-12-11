@@ -16,6 +16,9 @@ ISTANBUL_OPTS = instrument --variable global.__coverage__ --no-compact
 
 default: test
 
+install: clean all
+	npm install -g .
+
 lib/%.js: src/%.coffee
 	$(BIN)/coffee $(COFFEE_OPTS) --output $(@D) $<
 
